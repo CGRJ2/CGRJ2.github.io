@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>최재민 | Unity 클라이언트 프로그래머</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">CJM<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">소개</a></li>
+        <li><a href="#skills">기술</a></li>
+        <li><a href="#projects">프로젝트</a></li>
+        <li><a href="#freelance">외주</a></li>
+        <li><a href="#awards">수상</a></li>
+        <li><a href="#education">학력</a></li>
+        <li><a href="#contact" class="btn-nav">연락하기</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">소개</a></li>
+      <li><a href="#skills" class="mobile-link">기술</a></li>
+      <li><a href="#projects" class="mobile-link">프로젝트</a></li>
+      <li><a href="#freelance" class="mobile-link">외주</a></li>
+      <li><a href="#awards" class="mobile-link">수상</a></li>
+      <li><a href="#education" class="mobile-link">학력</a></li>
+      <li><a href="#contact" class="mobile-link">연락하기</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag fade-up">Unity Client Programmer</p>
+      <h1 class="hero-name fade-up delay-1">최재민</h1>
+      <p class="hero-sub fade-up delay-2">
+        건축의 구조적 사고로<br />
+        <span class="accent">설계하는</span> 게임 개발자
+      </p>
+      <div class="hero-cta fade-up delay-3">
+        <a href="#projects" class="btn-primary">프로젝트 보기</a>
+        <a href="#contact" class="btn-ghost">연락하기</a>
+      </div>
+      <div class="hero-contacts fade-up delay-4">
+        <a href="mailto:pukahj@naver.com" class="contact-chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          pukahj@naver.com
+        </a>
+        <a href="https://github.com/CGRJ2" target="_blank" rel="noopener" class="contact-chip">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          CGRJ2
+        </a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">저는 이런 사람입니다</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">
+            건축학을 전공하며 <strong>공간의 기능, 동선, 구조적 위계</strong>를 파악하고 최적의 설계안을 도출하는 훈련을 해왔습니다. 이러한 구조적 사고는 게임 개발에서도 저의 가장 큰 무기가 되었습니다.
+          </p>
+          <p>
+            개발 과정에서 저는 단순히 기능을 구현하는 것을 넘어, 전체 시스템 안에서 해당 기능의 역할과 데이터 흐름을 먼저 설계합니다. <strong>숲을 먼저 보고 나무를 심는 방식</strong>은 기능 간의 불필요한 충돌을 예방하고 유지보수성 높은 코드를 만드는 기반이 됩니다.
+          </p>
+        </div>
+        <div class="about-values">
+          <div class="value-card reveal">
+            <div class="value-icon">🧱</div>
+            <h3>단일 책임 설계</h3>
+            <p>유닛화된 스크립트를 블록처럼 조립하는 구조를 선호합니다.</p>
+          </div>
+          <div class="value-card reveal">
+            <div class="value-icon">📖</div>
+            <h3>가독성 중심</h3>
+            <p>다른 사람이 보더라도 쉽게 이해할 수 있는 코드를 작성합니다.</p>
+          </div>
+          <div class="value-card reveal">
+            <div class="value-icon">🔄</div>
+            <h3>유지보수·확장성</h3>
+            <p>기능 하나를 만들어도 전체 구조를 고려해 설계합니다.</p>
+          </div>
+          <div class="value-card reveal">
+            <div class="value-icon">💬</div>
+            <h3>명확한 소통</h3>
+            <p>팀원과의 동기화를 유지해 소통 상의 오류를 예방합니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">기술 스택</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">
+            <span class="skill-dot dot-purple"></span>
+            Language & Engine
+          </h3>
+          <div class="skill-tags">
+            <span class="tag tag-primary">Unity</span>
+            <span class="tag tag-primary">C#</span>
+            <span class="tag">2D / 3D 개발</span>
+            <span class="tag">UI/UX 구현</span>
+            <span class="tag">Animation System</span>
+            <span class="tag">Physics System</span>
+            <span class="tag">OOP 설계</span>
+            <span class="tag">자료구조 / 알고리즘</span>
+            <span class="tag">메모리 최적화</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">
+            <span class="skill-dot dot-teal"></span>
+            Backend & Multiplayer
+          </h3>
+          <div class="skill-tags">
+            <span class="tag tag-teal">Firebase</span>
+            <span class="tag tag-teal">PUN2</span>
+            <span class="tag">Authentication</span>
+            <span class="tag">Realtime Database</span>
+            <span class="tag">Firestore</span>
+            <span class="tag">Cloud Functions</span>
+            <span class="tag">실시간 멀티플레이어</span>
+            <span class="tag">Room / Lobby 관리</span>
+            <span class="tag">RPC 통신</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">
+            <span class="skill-dot dot-orange"></span>
+            Collaboration & Tools
+          </h3>
+          <div class="skill-tags">
+            <span class="tag tag-orange">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Git Flow</span>
+            <span class="tag">Git Issue 트래킹</span>
+            <span class="tag">Notion</span>
+            <span class="tag">Figma</span>
+            <span class="tag">HTML / CSS / JS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">프로젝트</h2>
+        <p class="section-sub">경일게임IT아카데미 부트캠프 팀 프로젝트</p>
+      </div>
+
+      <!-- Featured: 마다가스카르까스 -->
+      <div class="project-featured reveal">
+        <div class="project-featured-badge">개발 중 · In Development</div>
+        <div class="project-featured-content">
+          <div class="project-featured-info">
+            <div class="project-tags-row">
+              <span class="tag tag-primary">3D 생존게임</span>
+              <span class="tag tag-teal">소울라이크</span>
+              <span class="tag">Unity</span>
+              <span class="tag">Solo</span>
+            </div>
+            <h3 class="project-featured-title">마다가스카르까스</h3>
+            <p class="project-featured-desc">
+              현재 개발 중인 3D 생존 게임. 소울라이크 전투와 생존 요소를 결합한 프로토타입으로 대규모 인디게임 공모전에 참가 중입니다.
+            </p>
+            <div class="project-contest-badges">
+              <span class="contest-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+                코리아 인디게임 데브캠프 2026 참가
+              </span>
+              <span class="contest-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+                스마일게이트 Indigo 2026 참가
+              </span>
+            </div>
+            <div class="project-links">
+              <a href="https://drive.google.com/drive/folders/13JWp2pG7qS52CegYXPpOHE5enlbi6mtb" target="_blank" rel="noopener" class="btn-ghost-sm">빌드 & 기획서 보기</a>
+            </div>
+          </div>
+          <div class="project-featured-visual">
+            <div class="project-visual-placeholder">
+              <div class="placeholder-icon">🎮</div>
+              <span>마다가스카르까스</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-platform">
+              <span class="platform-badge">모바일</span>
+              <span class="platform-badge">팀(5인)</span>
+            </div>
+            <div class="project-period">2025.09 – 11</div>
+          </div>
+          <h3 class="project-card-title">유니모 별자리 가꾸기</h3>
+          <p class="project-card-desc">재료를 생산·수확·가공하여 NPC에게 전달해 별자리를 회복시키는 힐링형 경영 시뮬레이션 게임</p>
+          <div class="project-card-tags">
+            <span class="tag">경영 시뮬레이션</span>
+            <span class="tag">Unity 2022</span>
+            <span class="tag">모바일</span>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/CGRJ2" target="_blank" rel="noopener" class="link-sm">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-platform">
+              <span class="platform-badge">PC</span>
+              <span class="platform-badge">팀(5인)</span>
+            </div>
+            <div class="project-period">2025.07 – 08</div>
+          </div>
+          <h3 class="project-card-title">PokeSurvival</h3>
+          <p class="project-card-desc">포켓몬스터 IP를 활용한 io류 팬게임. 레벨을 올리며 성장하고 경쟁하는 실시간 PVP 멀티플레이어 게임</p>
+          <div class="project-card-tags">
+            <span class="tag">2D</span>
+            <span class="tag">PVP 멀티플레이</span>
+            <span class="tag">PUN2</span>
+            <span class="tag">Unity 2022</span>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/CGRJ2" target="_blank" rel="noopener" class="link-sm">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-platform">
+              <span class="platform-badge">PC</span>
+              <span class="platform-badge">팀(5인)</span>
+            </div>
+            <div class="project-period">2025.06 – 07</div>
+          </div>
+          <h3 class="project-card-title">ToyBox Escape: Unloved</h3>
+          <p class="project-card-desc">장난감 시점으로 집 안을 탐험하며, 아이템 제작과 전투를 통해 탈출을 시도하는 3D 생존 어드벤처 게임</p>
+          <div class="project-card-tags">
+            <span class="tag">3D 생존</span>
+            <span class="tag">크래프팅</span>
+            <span class="tag">Unity 2022</span>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/CGRJ2" target="_blank" rel="noopener" class="link-sm">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-platform">
+              <span class="platform-badge">VR</span>
+              <span class="platform-badge">개인</span>
+            </div>
+            <div class="project-period">2025.05</div>
+          </div>
+          <h3 class="project-card-title">VR 아이스크림 시뮬레이션</h3>
+          <p class="project-card-desc">랜덤으로 주문하는 손님들의 요구에 맞게 아이스크림을 제조·제공하는 VR 경영 시뮬레이션 게임</p>
+          <div class="project-card-tags">
+            <span class="tag">VR</span>
+            <span class="tag">경영 시뮬레이션</span>
+            <span class="tag">Unity 2022</span>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/CGRJ2" target="_blank" rel="noopener" class="link-sm">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FREELANCE -->
+  <section id="freelance" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">외주 프로젝트</h2>
+        <p class="section-sub">크몽(@LazyBeagle) 외주 작업물</p>
+      </div>
+      <div class="freelance-grid">
+
+        <div class="freelance-card reveal">
+          <div class="freelance-num">01</div>
+          <h3>3D 생존게임 프로토타입</h3>
+          <p>소울라이크 요소를 결합한 3D 생존게임 프로토타입 개발</p>
+          <div class="project-card-tags">
+            <span class="tag">게임개발</span>
+            <span class="tag">Unity</span>
+            <span class="tag">생존게임</span>
+            <span class="tag">소울라이크</span>
+          </div>
+        </div>
+
+        <div class="freelance-card reveal">
+          <div class="freelance-num">02</div>
+          <h3>레이싱 룰렛 웹 어플리케이션</h3>
+          <p>레이싱 룰렛 방식의 웹 어플리케이션 기획 및 배포</p>
+          <div class="project-card-tags">
+            <span class="tag">웹 어플리케이션</span>
+            <span class="tag">HTML/CSS/JS</span>
+            <span class="tag">배포</span>
+          </div>
+        </div>
+
+        <div class="freelance-card reveal">
+          <div class="freelance-num">03</div>
+          <h3>2D 핵앤슬래시 프로토타이핑</h3>
+          <p>모바일 타겟의 2D 액션 핵앤슬래시 캐주얼 게임 프로토타입 제작</p>
+          <div class="project-card-tags">
+            <span class="tag">2D</span>
+            <span class="tag">핵앤슬래시</span>
+            <span class="tag">Unity</span>
+            <span class="tag">모바일</span>
+          </div>
+        </div>
+
+        <div class="freelance-card reveal">
+          <div class="freelance-num">04</div>
+          <h3>3D 하이퍼캐주얼 프로토타이핑</h3>
+          <p>모바일 3D 하이퍼캐주얼 게임 프로토타입 개발</p>
+          <div class="project-card-tags">
+            <span class="tag">3D</span>
+            <span class="tag">하이퍼캐주얼</span>
+            <span class="tag">Unity</span>
+            <span class="tag">모바일</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="freelance-cta reveal">
+        <a href="https://kmong.com/@LazyBeagle/portfolios" target="_blank" rel="noopener" class="btn-ghost">크몽 포트폴리오 보기 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section id="awards" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2 class="section-title">수상 및 공모전</h2>
+      </div>
+      <div class="awards-list">
+
+        <div class="award-item reveal">
+          <div class="award-year">2021</div>
+          <div class="award-content">
+            <div class="award-badge award-gold">대상</div>
+            <h3>넥슨코리아 Creators Invitational 2021</h3>
+            <p>Project MOD (현 메이플스토리 월드) 메타버스 콘텐츠 공모전. 낯선 스크립팅 환경에서 공식 문서를 분석해 모든 시스템을 안정화, 계획했던 기능을 완전히 구현하여 최우수상 수상.</p>
+            <div class="award-links">
+              <a href="https://drive.google.com/drive/folders/1aKfZk_Ui2uorR7AIOvjKXZ5q7HEC3-oV" target="_blank" rel="noopener" class="link-sm">플레이 영상 보기 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="award-item reveal">
+          <div class="award-year">2020</div>
+          <div class="award-content">
+            <div class="award-badge award-silver">우수상</div>
+            <h3>서울건축문화제 2020 대학생 아이디어 공모전</h3>
+            <p>한양대학교 건축학과 재학 중 참가한 공모전. 건축 공간 기획 및 설계 아이디어로 우수상 수상.</p>
+          </div>
+        </div>
+
+        <div class="award-item reveal">
+          <div class="award-year">2026</div>
+          <div class="award-content">
+            <div class="award-badge award-ongoing">진행 중</div>
+            <h3>코리아 인디게임 데브캠프 2026</h3>
+            <p>생존게임 마다가스카르까스로 참가 중인 인디게임 개발 지원 캠프.</p>
+          </div>
+        </div>
+
+        <div class="award-item reveal">
+          <div class="award-year">2026</div>
+          <div class="award-content">
+            <div class="award-badge award-ongoing">진행 중</div>
+            <h3>스마일게이트 인디게임 공모전 Indigo 2026</h3>
+            <p>생존게임 마다가스카르까스로 참가 중인 스마일게이트 인디게임 공모전.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">06</span>
+        <h2 class="section-title">학력 및 교육</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-period">2025.03 – 2025.11</div>
+          <div class="timeline-content">
+            <h3>경일게임IT아카데미</h3>
+            <p class="timeline-sub">Unity 게임 개발자 과정 부트캠프</p>
+            <p>팀 프로젝트 4건, 다양한 장르의 게임 개발 및 협업 경험 축적</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-period">2018.03 – 2025.02</div>
+          <div class="timeline-content">
+            <h3>한양대학교</h3>
+            <p class="timeline-sub">건축학과 (5년제) 졸업</p>
+            <p>공간 설계, 구조적 사고, 프로젝트 기획 능력 함양. 이 구조적 접근법은 게임 시스템 설계의 기반이 됨</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-period">2014.03 – 2017.02</div>
+          <div class="timeline-content">
+            <h3>포천 고등학교</h3>
+            <p class="timeline-sub">졸업</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-wrapper reveal">
+        <div class="section-header">
+          <span class="section-num">07</span>
+          <h2 class="section-title">연락하기</h2>
+        </div>
+        <p class="contact-desc">게임 개발 협업, 외주 문의, 채용 등 어떤 이야기든 환영합니다.</p>
+        <div class="contact-cards">
+          <a href="mailto:pukahj@naver.com" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">이메일</span>
+              <span class="contact-card-value">pukahj@naver.com</span>
+            </div>
+          </a>
+          <a href="tel:010-9041-0318" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.72 6.72l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">전화</span>
+              <span class="contact-card-value">010-9041-0318</span>
+            </div>
+          </a>
+          <a href="https://github.com/CGRJ2" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">github.com/CGRJ2</span>
+            </div>
+          </a>
+          <a href="https://kmong.com/@LazyBeagle/portfolios" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">외주 문의</span>
+              <span class="contact-card-value">크몽 @LazyBeagle</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">최재민<span class="accent">.</span></span>
+        <span class="footer-copy">Unity Client Programmer · 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
