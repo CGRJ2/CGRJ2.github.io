@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>유니모 별자리 가꾸기 | 최재민 포트폴리오</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">CJM<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html#about">소개</a></li>
+        <li><a href="../index.html#skills">기술</a></li>
+        <li><a href="../index.html#projects">프로젝트</a></li>
+        <li><a href="../index.html#contact" class="btn-nav">연락하기</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="project-hero">
+    <div class="container">
+      <a href="../index.html#projects" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        프로젝트 목록으로
+      </a>
+      <div class="project-hero-tags">
+        <span class="tag tag-primary">모바일</span>
+        <span class="tag">경영 시뮬레이션</span>
+        <span class="tag">팀 프로젝트 (5인)</span>
+        <span class="tag">Unity 2022.3</span>
+      </div>
+      <h1 class="project-hero-title">유니모 별자리 가꾸기</h1>
+      <p class="project-hero-desc">재료를 생산·수확·가공하여 NPC에게 전달해 별자리를 회복시키는 힐링형 3D 아이소매트릭 경영 시뮬레이션 게임. 점진적 성장과 자동화를 통한 경영의 성취감을 목표로 설계.</p>
+      <div class="project-meta-row">
+        <div class="project-meta-item">
+          <span class="project-meta-label">기간</span>
+          <span class="project-meta-value">2025.09 – 2025.11</span>
+        </div>
+        <div class="project-meta-item">
+          <span class="project-meta-label">플랫폼</span>
+          <span class="project-meta-value">모바일 (Android)</span>
+        </div>
+        <div class="project-meta-item">
+          <span class="project-meta-label">엔진</span>
+          <span class="project-meta-value">Unity 2022.3</span>
+        </div>
+        <div class="project-meta-item">
+          <span class="project-meta-label">인원</span>
+          <span class="project-meta-value">5인 팀</span>
+        </div>
+      </div>
+      <div class="project-hero-links">
+        <a href="https://github.com/CGRJ2/UniMo-GardenOfStars" target="_blank" rel="noopener" class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="https://drive.google.com/file/d/1SFQKl9yh9YrdCFSF1W47Ka3N5lPFplYU/view" target="_blank" rel="noopener" class="btn-ghost">PPT 보기</a>
+        <a href="https://www.notion.so/2940c0fe62928096bed2ed8cc93853bc" target="_blank" rel="noopener" class="btn-ghost">Notion 기술문서</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="project-layout">
+
+      <!-- CONTENT -->
+      <main class="project-content">
+
+        <!-- MY CONTRIBUTIONS -->
+        <div class="tech-section" id="contributions">
+          <div class="tech-section-header">
+            <div class="tech-section-num">✦</div>
+            <div class="tech-section-header-text">
+              <h2>본인 구현 내용</h2>
+              <p>총 5인 팀에서 담당한 시스템 영역</p>
+            </div>
+          </div>
+          <div class="contributions-grid">
+            <span class="contribution-item">원격 리소스 패치 시스템</span>
+            <span class="contribution-item">오브젝트 풀링 구조</span>
+            <span class="contribution-item">건물 시스템</span>
+            <span class="contribution-item">스테이지 시스템</span>
+            <span class="contribution-item">퀘스트 진행도 갱신 및 저장</span>
+          </div>
+        </div>
+
+        <!-- 1. 원격 리소스 패치 -->
+        <div class="tech-section" id="patch">
+          <div class="tech-section-header">
+            <div class="tech-section-num">1</div>
+            <div class="tech-section-header-text">
+              <h2>원격 리소스 패치 시스템</h2>
+              <p>Unity Addressables + Google Cloud Storage를 연동한 모바일 최적화 원격 패치 구조</p>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">설계 배경</h3>
+            <div class="problem-solution">
+              <div class="ps-block problem">
+                <div class="ps-label">문제</div>
+                <ul>
+                  <li>기존 Resources 구조는 작은 수정에도 전체 빌드가 필요</li>
+                  <li>리소스가 늘어날수록 빌드 시간 증가</li>
+                  <li>모바일 환경에 대응하기 부적합</li>
+                </ul>
+              </div>
+              <div class="ps-block solution">
+                <div class="ps-label">해결</div>
+                <ul>
+                  <li>Unity Addressable Asset System 적용</li>
+                  <li>Google Cloud Storage(GCS)를 원격 카탈로그 저장소로 사용</li>
+                  <li>앱 실행 시 필요한 리소스만 원격 다운로드</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">구조</h3>
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-card-label">Remote 프로필</div>
+                <div class="info-card-content">실제 출시 버전용. GCS 버킷 경로에 AssetBundle·catalog.json 업로드하여 원격 관리</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">InternalTest 프로필</div>
+                <div class="info-card-content">내부 테스트 빌드용. 별도 경로로 운영하여 출시 버전과 분리</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">GCS 폴더 구조</div>
+                <div class="info-card-content">버전별 폴더로 분리 관리. 임시 저장소(Temp) 운영으로 스테이징 지원</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">결과</h3>
+            <div class="result-list">
+              <div class="result-item">
+                <div class="result-icon">⚡</div>
+                <p><strong>전체 빌드 시간 단축</strong>리소스 변경 시 전체 빌드 없이 해당 번들만 갱신 가능</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">📱</div>
+                <p><strong>어플리케이션 용량 최소화</strong>Addressable 적용 전후 실행 파일 용량 대폭 감소</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">🔄</div>
+                <p><strong>유저 편의성 확대</strong>앱 버전 업 빈도 감축 — 리소스 수정 시 앱 재설치 불필요</p>
+              </div>
+            </div>
+            <div class="retro-box">
+              <div class="retro-box-label">회고</div>
+              <p>패치 후 롤백이 필요한 경우를 고려해, 이전 버전 리소스를 제거하는 방식보다 버전별 폴더링으로 빌드 버전과 산출물 버전을 일치시키며 관리하는 것이 더 안전했을 것 같다.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. 오브젝트 풀링 -->
+        <div class="tech-section" id="pooling">
+          <div class="tech-section-header">
+            <div class="tech-section-num">2</div>
+            <div class="tech-section-header-text">
+              <h2>오브젝트 풀링 구조 설계</h2>
+              <p>프리팹 단위 지연(Lazy) 생성 풀로 재료·SFX·VFX까지 확장 가능한 범용 풀링 구조</p>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">설계 배경</h3>
+            <div class="problem-solution">
+              <div class="ps-block problem">
+                <div class="ps-label">문제</div>
+                <ul>
+                  <li>재료 오브젝트의 빈번한 생성/파괴 → GC 부하</li>
+                  <li>재료 종류 증가로 공통 프리팹 방식 비효율화</li>
+                  <li>모양·크기·애니메이션·데이터가 재료별로 상이</li>
+                </ul>
+              </div>
+              <div class="ps-block solution">
+                <div class="ps-label">해결</div>
+                <ul>
+                  <li>프리팹별 독립 풀을 동적으로 생성하는 Lazy 구조</li>
+                  <li>처음부터 모든 풀을 만드는 방식 대신 사용 시점에 생성</li>
+                  <li>SFX/VFX까지 동일 구조로 확장 가능하도록 설계</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">구성 요소</h3>
+            <div class="arch-diagram">PoolManager (싱글톤)
+ └─ Dictionary&lt;string, PoolBundle&gt;  (프리팹 이름 → 풀)
+     ├─ GetPoolBundle(prefab)  // 없으면 자동 생성
+     └─ 씬 전환 시 전체 풀 초기화
+
+PoolBundle
+ └─ ObjectPool  (Stack&lt;GameObject&gt; 기반)
+     ├─ DisposePooledObj()  // 꺼내기 (없으면 Instantiate)
+     └─ ReturnPooledObj()   // 반환 후 비활성화
+
+PooledObject (풀링 오브젝트에 부착)
+ └─ ParentPool.ReturnPooledObj(this)  // 자신을 풀로 반환</div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">주요 특징</h3>
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-card-label">지연(Lazy) 생성</div>
+                <div class="info-card-content">스테이지 진입 시 건물의 생산 재료 풀만 생성. 초기 로딩 비용 최소화</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">자동 확장</div>
+                <div class="info-card-content">풀이 비었을 경우 자동으로 Instantiate. 고정 크기의 한계 없음</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">씬 전환 대응</div>
+                <div class="info-card-content">씬 로드 시 기존 풀 전체 초기화하여 메모리 누수 방지</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">단순 접근</div>
+                <div class="info-card-content"><code>PoolManager.Instance.GetPoolBundle(prefab)</code>으로 어디서든 접근 가능</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">결과</h3>
+            <div class="result-list">
+              <div class="result-item">
+                <div class="result-icon">🧠</div>
+                <p><strong>메모리 낭비 감소</strong>초기 로딩 비용을 최소화하고 미사용 풀을 생성하지 않음</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">📦</div>
+                <p><strong>프리팹 단위 관리</strong>재료별 독립 풀로 관리 복잡도를 낮추고 범용성 확보</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">🔊</div>
+                <p><strong>확장성</strong>재료뿐 아니라 SFX·VFX까지 동일 구조로 확장 적용</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. 스테이지 시스템 -->
+        <div class="tech-section" id="stage">
+          <div class="tech-section-header">
+            <div class="tech-section-num">3</div>
+            <div class="tech-section-header-text">
+              <h2>스테이지 시스템</h2>
+              <p>씬 중심이 아닌 데이터 중심으로 스테이지를 관리하는 단일 씬 구조</p>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">설계 배경</h3>
+            <div class="problem-solution">
+              <div class="ps-block problem">
+                <div class="ps-label">문제</div>
+                <ul>
+                  <li>기존 방식: 스테이지마다 독립 씬 구성</li>
+                  <li>스테이지 초기화 로직 수정 시 각 씬마다 변경 필요</li>
+                  <li>씬 수 증가에 따른 유지보수 비용 급증</li>
+                </ul>
+              </div>
+              <div class="ps-block solution">
+                <div class="ps-label">해결</div>
+                <ul>
+                  <li>단일 StageScene에서 모든 스테이지 공통 로직 담당</li>
+                  <li>Firebase의 StageID를 참조해 맵·NPC·퀘스트 동적 초기화</li>
+                  <li>StageID 하나로 전체 상태 복원 가능</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">초기화 시퀀스</h3>
+            <div class="arch-diagram">[게임 시작]
+↓
+StageManager.Awake() → WaitAndInit()
+├─ Firebase 초기화 대기 (WaitUntil)
+├─ UserData, CurStageData, Npc, QuestList 순차 로드
+↓
+Init()
+├─ Addressables로 맵 씬(MapScene_StageID) Additive 로드
+├─ NPC 및 퀘스트 데이터 주입
+├─ CurrentQuestID 복원 (미완료 첫 번째 퀘스트)
+├─ Camera / HUD 초기화
+└─ 오프라인 보상 처리 (StageExitTimeData 비교)
+↓
+StageScene 플레이 시작</div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">결과</h3>
+            <div class="result-list">
+              <div class="result-item">
+                <div class="result-icon">🏗️</div>
+                <p><strong>스테이지 구조 통합</strong>단일 씬에서 데이터 기반으로 모든 스테이지 환경을 동적 주입</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">➕</div>
+                <p><strong>콘텐츠 확장성 확보</strong>신규 스테이지 추가 시 StageID와 데이터만 정의하면 코드 수정 없이 자동 대응</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">🔧</div>
+                <p><strong>유지보수성 향상</strong>모든 스테이지가 동일 로직으로 초기화 — 단일 씬으로 전체 스테이지 로직 검증 가능</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">☁️</div>
+                <p><strong>데이터 복원 안정성</strong>모든 진행 상태가 Firebase에 저장되어 앱 재시작 후에도 안전한 상태 복원</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <!-- TOC -->
+      <aside class="project-toc">
+        <div class="toc-title">목차</div>
+        <ul class="toc-list">
+          <li><a href="#contributions">본인 구현 내용</a></li>
+          <li><a href="#patch">1. 원격 리소스 패치 시스템</a></li>
+          <li><a href="#pooling">2. 오브젝트 풀링 구조</a></li>
+          <li><a href="#stage">3. 스테이지 시스템</a></li>
+        </ul>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">최재민<span class="accent">.</span></span>
+        <a href="../index.html#projects" class="link-sm">← 프로젝트 목록으로</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // TOC active highlight
+    const sections = document.querySelectorAll('.tech-section[id]');
+    const tocLinks = document.querySelectorAll('.toc-list a');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          tocLinks.forEach(l => l.classList.remove('active'));
+          const active = document.querySelector(`.toc-list a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    sections.forEach(s => observer.observe(s));
+  </script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToyBox Escape: Unloved | 최재민 포트폴리오</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">CJM<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html#about">소개</a></li>
+        <li><a href="../index.html#skills">기술</a></li>
+        <li><a href="../index.html#projects">프로젝트</a></li>
+        <li><a href="../index.html#contact" class="btn-nav">연락하기</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="project-hero">
+    <div class="container">
+      <a href="../index.html#projects" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        프로젝트 목록으로
+      </a>
+      <div class="project-hero-tags">
+        <span class="tag tag-primary">PC</span>
+        <span class="tag">3D 생존</span>
+        <span class="tag">소울라이크</span>
+        <span class="tag">팀 프로젝트 (5인)</span>
+        <span class="tag">Unity 2022.3</span>
+      </div>
+      <h1 class="project-hero-title">ToyBox Escape<br><span style="color:var(--text-muted);font-size:0.65em;">Unloved</span></h1>
+      <p class="project-hero-desc">장난감 시점으로 집 안을 탐험하며, 자원을 수집하고 제작과 전투를 통해 탈출을 시도하는 3D 생존 게임. 소울라이크 전투 방식과 서바이벌 요소를 결합.</p>
+      <div class="project-meta-row">
+        <div class="project-meta-item">
+          <span class="project-meta-label">기간</span>
+          <span class="project-meta-value">2025.06 – 2025.07</span>
+        </div>
+        <div class="project-meta-item">
+          <span class="project-meta-label">플랫폼</span>
+          <span class="project-meta-value">PC</span>
+        </div>
+        <div class="project-meta-item">
+          <span class="project-meta-label">엔진</span>
+          <span class="project-meta-value">Unity 2022.3</span>
+        </div>
+        <div class="project-meta-item">
+          <span class="project-meta-label">인원</span>
+          <span class="project-meta-value">5인 팀 (팀장)</span>
+        </div>
+      </div>
+      <div class="project-hero-links">
+        <a href="https://github.com/CGRJ2/SuvivalGame_Team3" target="_blank" rel="noopener" class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="https://drive.google.com/file/d/1VQQNQwc9LQapNhhfPmqGxOrzWrPG01ga/view" target="_blank" rel="noopener" class="btn-ghost">게임 소개 PPT</a>
+        <a href="https://www.notion.so/2a20c0fe6292807ea031d6d06c6db458" target="_blank" rel="noopener" class="btn-ghost">Notion 기술문서</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="project-layout">
+
+      <main class="project-content">
+
+        <!-- MY CONTRIBUTIONS -->
+        <div class="tech-section" id="contributions">
+          <div class="tech-section-header">
+            <div class="tech-section-num">✦</div>
+            <div class="tech-section-header-text">
+              <h2>본인 구현 내용</h2>
+              <p>총 5인 팀에서 팀장으로 담당한 시스템 영역</p>
+            </div>
+          </div>
+          <div class="contributions-grid">
+            <span class="contribution-item">플레이어 시스템</span>
+            <span class="contribution-item">전투 시스템</span>
+            <span class="contribution-item">생존 시스템</span>
+            <span class="contribution-item">인벤토리 시스템</span>
+            <span class="contribution-item">아이템 시스템</span>
+            <span class="contribution-item">제작 & 업그레이드 시스템</span>
+            <span class="contribution-item">파밍 시스템</span>
+            <span class="contribution-item">스포너 시스템</span>
+            <span class="contribution-item">지역 시스템</span>
+          </div>
+        </div>
+
+        <!-- 1. CSV 데이터 -->
+        <div class="tech-section" id="csv">
+          <div class="tech-section-header">
+            <div class="tech-section-num">1</div>
+            <div class="tech-section-header-text">
+              <h2>CSV 기반 데이터 로딩 구조 설계</h2>
+              <p>기획-개발 간 협업과 빠른 밸런싱을 위한 범용 CSV 파싱 파이프라인</p>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">설계 배경</h3>
+            <div class="problem-solution">
+              <div class="ps-block problem">
+                <div class="ps-label">ScriptableObject 방식의 한계</div>
+                <ul>
+                  <li>Unity 에디터로만 수정 가능 — 기획자 직접 수정 불가</li>
+                  <li>데이터 수 증가 시 파일 탐색 비용 증가</li>
+                  <li>기획-개발 간 버전 충돌 빈번 발생</li>
+                  <li>생존 요소(허기, 목마름, 체온 등) 빠른 추가/변동에 대응 어려움</li>
+                </ul>
+              </div>
+              <div class="ps-block solution">
+                <div class="ps-label">CSV 파이프라인</div>
+                <ul>
+                  <li>스프레드시트에서 직접 편집 가능 → 기획-개발 분리</li>
+                  <li>연관 데이터를 하나의 CSV 파일로 묶어 한눈에 확인</li>
+                  <li>DataManager 싱글톤이 게임 시작 시 단 1회 파싱 후 재사용</li>
+                  <li>partial 클래스로 파일 단위 분리 → 확장 시 기존 코드 무영향</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">파이프라인 구조</h3>
+            <div class="arch-diagram">CsvParser
+├─ Parse()         → CSV 전체를 List&lt;string[]&gt; (Rows) 로 반환
+└─ ParseSections() → 섹션별 Dictionary&lt;string, List&lt;string[]&gt;&gt; 반환
+                     (빈 행을 기준으로 섹션 분리)
+
+CsvRow  ← 한 행을 다루는 클래스
+└─ row["컬럼명"]  로 접근 / GetInt(), GetFloat(), GetBool() 제공
+
+ICsvRecord  ← CSV 한 줄 → C# 객체 변환 인터페이스
+└─ FromCsvRow(CsvRow row)  구현 필수
+
+CsvTable&lt;T&gt;  ← Rows → Dictionary&lt;key, T&gt; 변환
+└─ FindByKey(key) → O(1) 조회
+
+DataManager (싱글톤, partial 클래스로 분리)
+└─ Init() → InitSurvivalStatDatas(), InitPlayerFixedDatas(), ... 순차 호출</div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">데이터 추가 시 작업 순서</h3>
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-card-label">Step 1</div>
+                <div class="info-card-content">CSV 파일 작성 후 <strong>Resources/Data</strong> 경로에 저장</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">Step 2</div>
+                <div class="info-card-content"><strong>ICsvRecord 구현</strong> 데이터 클래스 생성 — FromCsvRow에서 컬럼 매핑</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">Step 3</div>
+                <div class="info-card-content">DataManager partial 클래스에 <strong>CsvTable&lt;T&gt; 필드 + 초기화 함수</strong> 추가</div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-label">Step 4</div>
+                <div class="info-card-content">DataManager.Init()에 <strong>초기화 함수 한 줄 추가</strong> → 완료</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">결과</h3>
+            <div class="result-list">
+              <div class="result-item">
+                <div class="result-icon">⚡</div>
+                <p><strong>초기 1회 로딩 & 재사용</strong>런타임 중 중복 파싱·GC 할당 없이 안정적 데이터 관리</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">📋</div>
+                <p><strong>기획-개발 협업 개선</strong>스프레드시트 직접 편집으로 버전 충돌·에디터 의존성 해소</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">🔍</div>
+                <p><strong>O(1) 조회</strong>키 기반 딕셔너리 조회로 게임 로직에서 직관적이고 빠른 접근</p>
+              </div>
+            </div>
+            <div class="retro-box">
+              <div class="retro-box-label">회고</div>
+              <p>퀘스트 다이얼로그, NPC 대사 등 파싱 대상이 많아진다면 파싱/정렬/인덱싱 단계를 비동기로 분리해 초기 로딩 버벅거림을 방지하는 방향을 적용해볼 수 있을 것 같다.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. 플레이어 시스템 -->
+        <div class="tech-section" id="player">
+          <div class="tech-section-header">
+            <div class="tech-section-num">2</div>
+            <div class="tech-section-header-text">
+              <h2>플레이어 시스템</h2>
+              <p>MVC 패턴 + HFSM 구조를 결합해 이동·전투·생존·입력이 서로 독립적으로 동작하는 확장 가능한 플레이어 구조</p>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">전체 구조도</h3>
+            <div class="arch-diagram">Player
+├─ Model (데이터)
+│   ├─ PlayerLocomotionModel   이동 관련 스탯
+│   ├─ PlayerCombatModel       공격/피격/경직, 장착 무기 데이터
+│   └─ PlayerSurvivalModel     체력, 허기 등 생존 수치 (UnityEvent 옵저버 패턴)
+│
+├─ Controller (입력·상태 제어)
+│   ├─ PlayerStateMachine (HFSM)
+│   ├─ PlayerInputReader        InputSystem 이벤트 수신 → 프레임 단위 저장
+│   ├─ PlayerInputData          입력 Flag 소비 구조 (LateUpdate에서 초기화)
+│   └─ ColliderController       콜라이더 상태 제어
+│
+├─ View (애니메이션·이벤트)
+│
+└─ Hitbox / HitInfo (전투 판정)</div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">Model 세분화 배경</h3>
+            <div class="problem-solution">
+              <div class="ps-block problem">
+                <div class="ps-label">문제</div>
+                <ul>
+                  <li>단일 Model 클래스에 이동·공격·생존 데이터 집중 → 응집도 저하</li>
+                  <li>Controller가 입력 처리 + 상태 전환을 모두 담당 → 코드 비대화</li>
+                  <li>상태 전환 규칙이 각 상태에 분산 → 신규 상태 추가 시 충돌</li>
+                </ul>
+              </div>
+              <div class="ps-block solution">
+                <div class="ps-label">해결</div>
+                <ul>
+                  <li>Model을 Locomotion·Combat·Survival 도메인 단위로 분리</li>
+                  <li>Controller 내 입력 처리(Reader/Data)와 상태 제어(HFSM) 분리</li>
+                  <li>상태 전환 규칙을 StateMachine 중앙에서 관리</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">Unity Input System 버퍼링 구조</h3>
+            <div class="problem-solution">
+              <div class="ps-block problem">
+                <div class="ps-label">문제: 이벤트 기반 vs 프레임 기반 충돌</div>
+                <ul>
+                  <li>InputSystem 콜백에서 로직 직접 호출 시 타이밍 불일치</li>
+                  <li>"피격 중 점프 금지" 등 규칙이 행동 로직 내부에 분산</li>
+                  <li>동시 입력 우선순위 처리가 기능마다 복잡해짐</li>
+                </ul>
+              </div>
+              <div class="ps-block solution">
+                <div class="ps-label">해결: 프레임 단위 입력 버퍼링</div>
+                <ul>
+                  <li>PlayerInputReader: 콜백에서 "이번 프레임에 이런 입력 있었음"만 기록</li>
+                  <li>PlayerInputData: LateUpdate에서 모든 Flag 초기화 (1프레임 1회 보장)</li>
+                  <li>상태 머신이 InputSystem에 직접 의존 없이 InputData만 참조</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">HFSM 계층 구조</h3>
+            <div class="arch-diagram">Root
+└─ Alive
+    ├─ Grounded
+    │   ├─ Idle
+    │   ├─ Move (Walk / Run / Crouch)
+    │   ├─ Attack (무기별 고유 모션, 점프 공격, 원거리)
+    │   ├─ Roll (구르기)
+    │   └─ Interact (상호작용)
+    ├─ Airborne
+    │   └─ Jump
+    ├─ Stagger (경직)
+    └─ Dead (사망)</div>
+            <p style="margin-top:12px;font-size:14px;color:var(--text-muted);">공통 로직을 지닌 상태를 계층으로 묶어 중복 코드 방지. 계층 적용 후 Animator Transition 수가 대폭 감소하여 관리 용이성 확보.</p>
+          </div>
+
+          <div class="sub-section">
+            <h3 class="sub-section-title">결과</h3>
+            <div class="result-list">
+              <div class="result-item">
+                <div class="result-icon">🧩</div>
+                <p><strong>독립적 확장</strong>새로운 상태 추가 시 기존 상태 수정 최소화. 입력·애니메이션·데이터 각각 독립 변경 가능</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">🎮</div>
+                <p><strong>입력 일관성 보장</strong>버퍼링 구조로 Pressed/Released가 프레임 내 1회만 처리됨. 동시 입력 우선순위 처리 단순화</p>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">📐</div>
+                <p><strong>구조적 사고의 적용</strong>건축 설계처럼 전체 시스템 흐름을 도식화한 뒤 구현에 진입 — 기능 간 충돌을 사전에 방지</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <!-- TOC -->
+      <aside class="project-toc">
+        <div class="toc-title">목차</div>
+        <ul class="toc-list">
+          <li><a href="#contributions">본인 구현 내용</a></li>
+          <li><a href="#csv">1. CSV 데이터 로딩</a></li>
+          <li><a href="#player">2. 플레이어 시스템</a></li>
+        </ul>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">최재민<span class="accent">.</span></span>
+        <a href="../index.html#projects" class="link-sm">← 프로젝트 목록으로</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    const sections = document.querySelectorAll('.tech-section[id]');
+    const tocLinks = document.querySelectorAll('.toc-list a');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          tocLinks.forEach(l => l.classList.remove('active'));
+          const active = document.querySelector(`.toc-list a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    sections.forEach(s => observer.observe(s));
+  </script>
+</body>
+</html>
